@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D17343221ADC4D10008B4C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D17343211ADC4D10008B4C48 /* main.m */; };
+		D173432B1ADC4D32008B4C48 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D173432A1ADC4D32008B4C48 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D173431E1ADC4D10008B4C48 /* MethodAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MethodAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17343211ADC4D10008B4C48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D17343291ADC4D32008B4C48 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		D173432A1ADC4D32008B4C48 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 		D17343151ADC4D10008B4C48 = {
 			isa = PBXGroup;
 			children = (
+				D17343281ADC4D17008B4C48 /* Model */,
 				D17343201ADC4D10008B4C48 /* MethodAssignment */,
 				D173431F1ADC4D10008B4C48 /* Products */,
 			);
@@ -59,6 +63,16 @@
 			children = (
 				D17343211ADC4D10008B4C48 /* main.m */,
 			);
+			path = MethodAssignment;
+			sourceTree = "<group>";
+		};
+		D17343281ADC4D17008B4C48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D17343291ADC4D32008B4C48 /* Car.h */,
+				D173432A1ADC4D32008B4C48 /* Car.m */,
+			);
+			name = Model;
 			path = MethodAssignment;
 			sourceTree = "<group>";
 		};
@@ -118,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D173432B1ADC4D32008B4C48 /* Car.m in Sources */,
 				D17343221ADC4D10008B4C48 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
