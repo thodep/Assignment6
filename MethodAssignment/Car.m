@@ -8,6 +8,8 @@
 
 #import "Car.h"
 
-@implementation Car
+@implementation Car {
+    double _odometer;
+    
 
 @end

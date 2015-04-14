@@ -33,5 +33,18 @@
 //Constructor methods
 -(id)initWithModel:(NSString *)amodel;
 -(id)initWithModel:(NSString *)amodel mileage:(double)theMileage;
+//Comparison methods
+-(BOOL)isEqualToCar:(Car *)anotherCar;
+-(Car *)fasterCar:(Car *)anotherCar;
+-(Car *)slowerCar:(Car *)anotherCar;
+
+//Factory methods
++(Car *)car;
++(Car *)carWithModel:(NSString *)aModel;
++(Car *)carWithModel:(NSString *)aModel mileage :(double)theMileage;
+//Singletonn methods
++(Car *)shareCar;
+
+
 
 @end
