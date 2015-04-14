@@ -250,6 +250,7 @@
 				D17343271ADC4D10008B4C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
